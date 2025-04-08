@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="content" method="upgrade">
+	<name>AI Integration 1</name>
+	<author>Charvi</author>
+	<creationDate>2025-04</creationDate>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+    <description>Integrates AI into Joomla articles</description>
+	<namespace path="src">Joomla\Plugin\Content\AiIntegration</namespace>
+	<files>
+		<folder plugin="aiintegration">services</folder>
+		<folder>src</folder>
+	</files>
+    <config>
+        <!-- <fields name="params">
+            <fieldset name="basic">
+                <field 
+					name="groq_api_key" 
+					type="text" 
+					label="Groq API Key" 
+					description="Enter your Groq API key here" 
+				/>
+            </fieldset>
+        </fields> -->
+    </config>
+</extension>
