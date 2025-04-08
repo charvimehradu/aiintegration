@@ -56,4 +56,9 @@ Once the plugin is installed and enabled, you can start using it right away.
 
 The shortcode will be replaced by the AI-generated response.
 
+## Demo
+
+
+https://github.com/user-attachments/assets/be3dbe4a-375c-420f-b149-b81e7df88481
+
 
